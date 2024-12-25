@@ -1,0 +1,20 @@
+<!DOCTYPE html>  <!-- Menandakan tipe dokumen HTML -->
+<html lang="en">  <!-- Menentukan bahasa dokumen -->
+<head>  <!-- Bagian head yang berisi metadata -->
+    <meta charset="UTF-8">  <!-- Mengatur karakter encoding menjadi UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Mengatur tampilan agar responsif -->
+    <title>Login Page</title>  <!-- Menentukan judul halaman -->
+    <link rel="stylesheet" href="/static/styles.css">  <!-- Menghubungkan file CSS -->
+</head>
+<body class="login-page">  <!-- Menetapkan kelas untuk body -->
+    <div class="container">  <!-- Membuat kontainer -->
+        <h2>Login Bro!</h2>  <!-- Menampilkan judul halaman -->
+        <form action="/home" method="post">  <!-- Formulir untuk mengirim nama pengguna melalui metode POST ke halaman home -->
+            <label for="name">Nama :</label>  <!-- Label untuk input nama -->
+            <input type="text" id="name" name="name" required>  <!-- Input untuk nama pengguna -->
+            <button type="submit">Submit</button>  <!-- Tombol untuk mengirimkan formulir -->
+        </form>
+        <a href="/">Back to Home</a>  <!-- Link untuk kembali ke halaman utama -->
+    </div>
+</body>
+</html>

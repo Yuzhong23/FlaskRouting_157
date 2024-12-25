@@ -1,0 +1,78 @@
+body {  /** Menetapkan gaya untuk body */
+    font-family: Arial, sans-serif;  /** Menentukan jenis font */
+    margin: 0;  /** Menghapus margin default */
+    display: flex;  /** Menggunakan flexbox */
+    justify-content: center;  /** Menyusun elemen di tengah secara horizontal */
+    align-items: center;  /** Menyusun elemen di tengah secara vertikal */
+    height: 100vh;  /** Mengatur tinggi body agar sesuai dengan tinggi viewport */
+}
+
+.container {  /** Menetapkan gaya untuk elemen dengan kelas .container */
+    background: rgba(255, 255, 255, 0.7);  /** Latar belakang putih semi transparan */
+    border: 2px solid #ff0000;  /** Menambahkan border merah */
+    border-radius: 10px;  /** Menambahkan border-radius */
+    padding: 50px;  /** Menambahkan padding */
+    width: 500px;  /** Menentukan lebar kontainer */
+    text-align: center;  /** Menyusun teks di tengah */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);  /** Menambahkan bayangan */
+}
+
+h2 {  /** Menetapkan gaya untuk elemen <h2> */
+    color: #ff0000;  /** Mengatur warna teks merah */
+    margin-bottom: 20px;  /** Menambahkan margin bawah */
+}
+
+label {  /** Menetapkan gaya untuk elemen <label> */
+    display: block;  /** Menjadikan label sebagai elemen blok */
+    margin-bottom: 10px;  /** Menambahkan margin bawah */
+    font-weight: bold;  /** Menebalkan font */
+    color: rgb(0, 0, 0);  /** Mengatur warna teks menjadi hitam */
+}
+
+input[type="text"] {  /** Menetapkan gaya untuk input tipe teks */
+    width: 100%;  /** Menentukan lebar penuh */
+    padding: 8px;  /** Menambahkan padding */
+    margin-bottom: 20px;  /** Menambahkan margin bawah */
+    border: 1px solid #ccc;  /** Menambahkan border abu-abu terang */
+    border-radius: 5px;  /** Menambahkan border-radius */
+}
+
+button {  /** Menetapkan gaya untuk tombol */
+    background: #ff0000;  /** Latar belakang merah */
+    color: white;  /** Teks berwarna putih */
+    border: none;  /** Menghilangkan border */
+    padding: 10px 50px;  /** Menambahkan padding */
+    border-radius: 5px;  /** Menambahkan border-radius */
+    cursor: pointer;  /** Mengubah kursor menjadi pointer */
+}
+
+button:hover {  /** Menetapkan gaya untuk tombol saat hover */
+    background: #1d00fc;  /** Mengubah latar belakang menjadi biru */
+}
+
+a {  /** Menetapkan gaya untuk elemen <a> */
+    color: #000000;  /** Mengatur warna teks menjadi hitam */
+    text-decoration: none;  /** Menghapus garis bawah */
+    display: block;  /** Menjadikan elemen blok */
+    margin-top: 10px;  /** Menambahkan margin atas */
+}
+
+a:hover {  /** Menetapkan gaya untuk elemen <a> saat hover */
+    text-decoration: underline;  /** Menambahkan garis bawah */
+}
+
+.container p {  /** Menetapkan gaya untuk elemen <p> dalam kontainer */
+    color: rgb(0, 0, 0);  /** Mengatur warna teks menjadi hitam */
+}
+
+body.login-page {  /** Menetapkan gaya untuk body pada halaman login */
+    background-image: url('/static/Yuzhong2.jpg');  /** Menambahkan gambar latar belakang untuk halaman login */
+    background-size: cover;  /** Mengatur ukuran gambar agar menutupi seluruh area */
+    background-position: center;  /** Mengatur posisi gambar di tengah */
+}
+
+body.home-page {  /** Menetapkan gaya untuk body pada halaman home */
+    background-image: url('/static/Yuzhong1.jpg');  /** Menambahkan gambar latar belakang untuk halaman home */
+    background-size: cover;  /** Mengatur ukuran gambar agar menutupi seluruh area */
+    background-position: center;  /** Mengatur posisi gambar di tengah */
+}
